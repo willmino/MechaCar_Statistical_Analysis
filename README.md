@@ -23,3 +23,10 @@ This value indicates a strong correlation between some of the independent variab
 
 
 
+# Part 2
+
+![total_summary](https://github.com/willmino/MechaCar_Statistical_Analysis/blob/main/images/total_summary.png)
+
+
+
+![lot_summary](https://github.com/willmino/MechaCar_Statistical_Analysis/blob/main/images/lot_summary.png)
