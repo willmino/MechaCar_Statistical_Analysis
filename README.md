@@ -39,8 +39,17 @@ According to the design specifications for the MechaCar suspension coils, the va
 
 ## T-Tests on Suspension Coils
 
+![t.test_population_mean](https://github.com/willmino/MechaCar_Statistical_Analysis/blob/main/images/t.test_1.png)
+
 In the first t-test, the PSI values from all three production lots are tested against the entire group's average to determine if there is a significant difference in the values. Since 1500 PSI was used as the mu value for the t.test() function, the difference in the average PSI across all production lots versus the population average PSI ws not statistically significant. This is because the resulting p-value from this t-test was greater than 0.05.
 
+![t.test_Lot1](https://github.com/willmino/MechaCar_Statistical_Analysis/blob/main/images/t.test_Lot1.png)
+![t.test_Lot2](https://github.com/willmino/MechaCar_Statistical_Analysis/blob/main/images/t.test_Lot2.png)
+![t.test_Lot3](https://github.com/willmino/MechaCar_Statistical_Analysis/blob/main/images/t.test_Lot3.png)
+
 When comparing each production lot's average PSI value as a sample group against the total population, we began to see some differences in the resulting p-values. There was no difference between the Lot1 average PSI sample group and the total population PSI average because the resulting p-value was 1. Also, we could tell from our results table in part 2, that the values were identical (Lot1 mean PSI = 1500 vs mu = 1500). The p-value for Lot2 difference with the population mean was 0.607. This did not meet the confidence level of 0.05 and thus the difference in these mean PSI values was not statistically significant (Lot2 mean PSI = 1500.2 vs. mu=1500). The difference between Lot3 mean PSI and the population mean PSI yielded a p-value of 0.04168. This value was less than the confidence level of 0.05. Thus, Lot3 mean PSI value of 1496.14 was significantly different than the population mean PSI value of 1500.
+
+# Part 4
+
 
 
