@@ -41,7 +41,7 @@ According to the design specifications for the MechaCar suspension coils, the va
 
 ![t.test_population_mean](https://github.com/willmino/MechaCar_Statistical_Analysis/blob/main/images/t.test_1.png)
 
-In the first t-test, the PSI values from all three production lots are tested against the entire group's average to determine if there is a significant difference in the values. Since 1500 PSI was used as the mu value for the t.test() function, the difference in the average PSI across all production lots versus the population average PSI ws not statistically significant. This is because the resulting p-value from this t-test was greater than 0.05.
+In the first t-test, the PSI values from all three production lots combined are tested against the entire group's average to determine if there is a significant difference in the values. Since 1500 PSI was used as the mu value for the t.test() function, the difference in the average PSI across all production lots versus the population average PSI ws not statistically significant. This is because the resulting p-value from this t-test was greater than 0.05.
 
 ![t.test_Lot1](https://github.com/willmino/MechaCar_Statistical_Analysis/blob/main/images/t.test_Lot1.png)
 ![t.test_Lot2](https://github.com/willmino/MechaCar_Statistical_Analysis/blob/main/images/t.test_Lot2.png)
