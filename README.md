@@ -1,7 +1,7 @@
 # MechaCar_Statistical_Analysis
 R statistical analyses and visualizations with car manufacturing data
 
-## Overview
+### Overview
 At AutosRUs, vehicle prototypes for the MechaCar were assessed in a multiple linear regression model to observe how certain characteristics of the vehicle impacted its fuel efficiency (mpg). Also, manufacturing lot testing of suspension coils were assessed for summary statistics and t-tests to meet specification standards. An additional statistical test was suggested at the end of this analysis for ranking the 2024 MechaCar with its competitor the 2023 Z-tron.
 
 
