@@ -42,8 +42,9 @@ According to the design specifications for the MechaCar suspension coils, the va
 
 
 ## T-Tests on Suspension Coils
+T-tests were peformed on suspension coils manufacturing lots to validate the statistifically significant differences in the dataset.
 
-## Bulk Dataset T-test with Population Mean
+### Bulk Dataset T-test with Population Mean
 ![t.test_population_mean](https://github.com/willmino/MechaCar_Statistical_Analysis/blob/main/images/t.test_1.png)
 
 In the first t-test, the PSI values from all three production lots combined were tested against the entire group's average to determine if there was a significant difference in the values. Since 1500 PSI was used as the mu value for the t.test() function, the difference in the average PSI across all production lots versus the population average PSI was not statistically significant. This is because the resulting p-value (~0.06) from this t-test was greater than 0.05.
@@ -60,16 +61,16 @@ When comparing each production lot's average PSI value as a sample group against
 ## Novel Study Design: MechaCar vs Competition
 
 A study will be conducted to quantify how the 2024 MechaCar performs against the most recent competitor's electric vehicle the 2023 Z-tron.
-The 2024 version of the MechCar is slated to feature an electric engine, improved electric travel efficiency (miles per charge), improved performance (horse power), and reduced carbon emissions. Like-minded consumers in the "Green" era of vehicle transportation today will be interested in the features this vehicle will have to offer.
+We will be monitoring a simulated value called the "average vehicle lifetime" to see if our MechaCar can be operated comfortably by customers for a longer estimated period of time compared to the competitor Z-tron vehicle. This specific feature of the MechaCar will be of high interest to our customers because they will see great value in an investment that not only lasts a long time, but also lasts much longer than other vehicles. The average vehicle lifetime parameter will allow our customers to have an easier time making their decision to purchase our MechaCar.
 
 ### Metrics:
-For this study, I will be testing the average vehicle lifetime compared between the 2024 MechaCar and its competitor the 2023 Z-tron.
+For this study, I will be testing the average vehicle lifetime comparison between the 2024 MechaCar and its competitor the 2023 Z-tron.
 
 
 ### Average Vehicle Lifetime Background
-When features are added to a car to make it more appealing to consumers, there are tradeoffs. A boring car designed for as minimal wear and tear possible over time will likely be very slow, aesthetically unpleasant, and generally not satisfying for the customer. On the other extreme, a very fast car (like a drag race car) experiences tremendous wear and tear and likely engine damage after a few number of drag races. Thus, tradeoffs are made between the integrity/stability of the car and improvements to vehicle function/appeal at the expense of the vehicle's stability. We are specifically going to monitor how the wear and tear, as a result of the improvements made to the MechaCar, affect the vehicle's average lifetime for the consumer, and how it ranks up to the competitor, the Z-tron.
+When features are added to a car to make it more appealing to consumers, there are tradeoffs. A boring car designed for as minimal wear and tear possible over time will likely be very slow, aesthetically unpleasant, and generally not satisfying for the customer. On the other extreme, a very fast car (like a drag race car) experiences tremendous wear and tear and likely engine damage after a few number of drag races. Thus, tradeoffs are made between the integrity/stability of the car and improvements to vehicle function/appeal at the expense of the vehicle's stability. We are specifically going to monitor how the wear and tear, as a result of the modifications made to the MechaCar, affect the vehicle's average lifetime for the consumer, and how it ranks up to the competitor, the Z-tron.
 
-The average vehicle lifetime is a value in years which comes from the aggregation of data from physical tests assessing the wear and tear brought about by the novel features of the car (electrical machinery components being disrupted on bumpy roads, mechanical stress resulting from improved horsepower, and structural sacrfices made for improved fuel efficiency) along with the likelihood of a customer to perform maintenance to fix the wear and tear. Accelerated physical tests will be run on the vehicles to simulate everyday wear and tear and to predict the average vehicle lifetime. Average vehicle lifetime will be quantified as the total amount of time (in years) a vehicle will be operated by a customer before an intolerable level of wear and tear and a loss of interest in maintenance funding are achieved.
+The average vehicle lifetime is a value in years which comes from the aggregation of data from physical tests assessing the wear and tear brought about by the novel features of the car (electrical machinery components being disrupted on bumpy roads, mechanical stress resulting from improved horsepower, and structural sacrifices made for improved fuel efficiency) along with the likelihood of a customer to perform maintenance to fix the wear and tear. Accelerated physical tests will be run on the vehicles to simulate everyday wear and tear and this will help generate our numerical values for the average vehicle lifetime in years. Average vehicle lifetime will be quantified as the total amount of time (in years) a vehicle will be operated by a customer before an intolerable level of wear and tear and a loss of interest in maintenance funding are achieved. We will then use the value for "average vehicle lifetime" in our statistical analysis.
 
 ### Null Hypothesis:
 The novel features of the 2024 MechaCar do not lead to improved average vehicle lifetime compared to the competitor vehicle the Z-tron.
