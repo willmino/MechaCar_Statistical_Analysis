@@ -19,12 +19,12 @@ when compared to the mpg dependent variable. The coefficients are the result of 
 variable's separate effect on mpg. For the variables "vehicle_length" and "ground_clearance", the coefficients produced are 6.27 and 3.55, respectively. These values indicate the slope of the line describing the relationship
 between each independent variable and mpg is positive and large. Though the other independent variables ("vehicle_weight", "spoiler_angle") have coefficients that are not zero, they still are very small and are less likely to have arisen without random chance. Thus, the p-values for the "vehicle_length" and "ground_clearance" parameters are very low and pass the significance threshold.
 
+![MechaCar_Statistical_Analysis](https://github.com/willmino/MechaCar_Statistical_Analysis/blob/main/images/part1_mult_lin_regression.png)
+
 ### Linear Regression Prediction Efficacy
 
 This model can effectively predict fuel-efficiencies (mpg) of MechaCar prototypes because the resulting multiple r^2 value is 0.71. R^2 is a quantitative measure of the 
 validity of a trend in the data that is not due to random chance. The measure of r^2 ranges from 0 to 1. An r^2 closer to 1 indicates that the distribution of data associated with a relationship between two variables is less random and more specific. In the case of this multiple r^2 value (from the multiple linear regression model), the value of 0.71 indicates a strong correlation between some of the independent variables and the dependent variable of mpg. Using our resulting mutiple linear regression model equation, input data from novel MechaCar models without an mpg reading will likely yield a good predictor for mpg (fuel efficiency).
-
-![MechaCar_Statistical_Analysis](https://github.com/willmino/MechaCar_Statistical_Analysis/blob/main/images/part1_mult_lin_regression.png)
 
 ## Summary Statistics on Suspension Coils
 
